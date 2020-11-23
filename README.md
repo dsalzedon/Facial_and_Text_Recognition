@@ -1,4 +1,4 @@
-# Facial Recognition   
+# Text and Facial Recognition in an Image   
 
 This code uses the libraries **PIL**, **PYTESSERACT**, **OPENCV**, and **NUMPY** as the core of the program. It opens a zip file with images inside and searchs for a name in the images' text; if there's a match it would then go through all the faces it recognized in the images and returns as a new image with these faces on it. If there's a match for the word but not faces are recognized in the image, it would output "there's a match but no faces in the file".   
 
@@ -9,6 +9,6 @@ Second, it loops through the zipe file and converts the images to a gray scale f
 Third, it loops through the values in the dictionary of strings searching for the name, if there's a match it then creates a new image with these faces and appends it to a list. After all the strings are compare, it creates a new image with all the faces found.
 
 Here's an example looking for "Christopher":
-![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/1.png)
+![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/1.png)   
 Here's an example looking for "Mark":
 ![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/2.png)   
