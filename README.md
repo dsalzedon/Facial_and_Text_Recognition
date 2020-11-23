@@ -9,6 +9,6 @@ Second, it loops through the zipe file and converts the images to a gray scale f
 Third, it loops through the values in the dictionary of strings searching for the name, if there's a match it then creates a new image with these faces and appends it to a list. After all the strings are compare, it creates a new image with all the faces found.
 
 Here's an example looking for "Christopher":
-![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/1.png)   
+![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/1.png)
 Here's an example looking for "Mark":
 ![alt text](https://raw.githubusercontent.com/dsalzedon/facial_recognition/main/img/2.png)   
